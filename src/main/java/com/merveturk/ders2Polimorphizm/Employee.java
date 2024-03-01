@@ -1,6 +1,7 @@
 package com.merveturk.ders2Polimorphizm;
 
-public abstract class Employee {
+public abstract class Employee implements BenefitCompany {
+
     private int tckn;
     private String name;
     private final int CONSTANT = 500;

@@ -2,6 +2,13 @@ package com.merveturk.ders2Polimorphizm;
 
 public class Manager extends Employee{
 
+    public void transferingEmployee(){
+        System.out.println("transferingEmployee methods called");
+    }
+    public void foodService(){
+        System.out.println("foodService methods called");
+    }
+
     private int floorNumber;
     private final int salaryMultiplier=1500;
 
@@ -15,6 +22,7 @@ public class Manager extends Employee{
 
     @Override
     public void workStyle() {
+
         super.workStyle();
         System.out.println("Manager manages this class.");
     }
